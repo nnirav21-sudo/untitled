@@ -1,0 +1,32 @@
+//Enumeration and custom data types
+
+PaymentStatus {
+COMPLETED,PENDING,FAILED,UNPAID,REFUNDED
+}
+AccountStatus{
+ACTIVE,CLOSED,BLOCKED,NONE
+}
+TicketStatus{
+ISSUED,IN_USE,PAID,VALIDATED,REFUNDED,CANCELLED
+}
+
+class Person{
+String name;
+String address;
+String phone;
+String email;
+}
+
+class Address{
+String zipCode;
+String city;
+String state;
+String country;
+String fullAddress;
+}
+
+// Parking Spots
+
+abstract class ParkingSpot{
+
+}
